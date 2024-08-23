@@ -1,0 +1,27 @@
+requirements
+
+
+install the following libraries for running the code:
+
+pandas
+pillow
+spacy
+scikit-learn
+transformers
+torch
+PyMuPDF
+
+new virual environment on the basis of the rquirements
+
+The code uses the en_core_web_md model from SpaCy. Download it with:
+python -m spacy download en_core_web_md
+
+Ensure the following files are present in the directory:
+
+well_student.pdf: The PDF file you are processing.
+
+
+For running the code  , make sure all the libraries and installed and running properly 
+in the same folder where the code is running let the war be stored 
+Change its name to well_student.pdf or change the name in the code accordingly 
+The file must be in pdf form
